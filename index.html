@@ -8,11 +8,11 @@
     <link rel="Stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    body class="text-center">
+   
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         
-    //Start Page with Start Button
+    <!-- Start Button -->
     <main role="main" class="inner cover">
     <h1 class="cover-heading">Hey Arnold Trivia!</h1>
     <p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
@@ -21,7 +21,7 @@
     </div>
     </main>
             
-   // Trivia Questions
+    <!-- Trivia Questions Section -->
     <div class="trivia-ques text-center">
     <p class="quest">1. Who were Arnold's legal guardians?</p>
     <form class="question">
@@ -61,10 +61,23 @@
     <input type="radio" name="optradio" class="optradio" value="correct"> P.S. 118 
     </label>
     <label class="form-check form-check-inline text-mysize">
-    <input type="radio" name="optradio" class="optradio" value="wrong"> P.S. 119
+    <input type="radio" name="optradio" class="optradio" value="wrong"> P.S.  119
     </form>
 
+    <!-- Done Button -->
+    <div>
+    <p class="lead btn btn-lg btn-danger" id="game-done">Done
+    </p>
+    </div>
+    </div>
 
+    <!-- Summary Results -->
+    <div class="results">
+    <p class="lead2" id="summary">All Done!</p> 
+    <p class="lead2" id="correctScore">Correct Answers:</p>
+    <p class="lead2" id="wrongScore"></p>
+    <p class="lead2" id="unanswered"></p>
+    </div>
 
 
 
